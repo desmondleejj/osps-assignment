@@ -29,5 +29,9 @@ namespace BillTracker.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<BillModels> Bill { get; set; }
+
+        //public System.Data.Entity.DbSet<BillTracker.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

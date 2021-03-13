@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BillTracker.Models.BillModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BillName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BillCompany)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BillDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BillPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BillName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BillCompany)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BillDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BillPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BillId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BillId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BillId })
+        </td>
+    </tr>
+}
+
+</table>
