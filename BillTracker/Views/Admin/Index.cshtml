@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>List of users</h2>
+
+
+<ul>
+    @foreach (var user in ViewBag.Users)
+    {
+        <li>@user.UserName</li>
+        @Html.ActionLink("Details", "Details", new { id = user.Id })
+        <li>@*@Html.ActionLink(user.Name, "Edit", new { @id = user.Id })*@</li>
+    }
+</ul>
