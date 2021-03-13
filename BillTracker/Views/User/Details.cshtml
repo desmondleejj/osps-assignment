@@ -1,0 +1,58 @@
+﻿@model BillTracker.Models.BillModels
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BillModels</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BillName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BillCompany)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillCompany)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BillDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BillPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillPrice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BillId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

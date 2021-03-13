@@ -101,7 +101,6 @@ C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\bin\Micr
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\obj\Debug\BillTracker.csprojAssemblyReference.cache
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\obj\Debug\BillTracker.csproj.CoreCompileInputs.cache
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\obj\Debug\BillTracker.csproj.CopyComplete
 C:\Users\Desmo\Desktop\Work Training\Assignment\BillTracker\BillTracker\obj\Debug\BillTracker.dll
