@@ -33,5 +33,7 @@ namespace BillTracker.Models
         public DbSet<BillModels> Bill { get; set; }
 
         //public System.Data.Entity.DbSet<BillTracker.Models.ApplicationUser> ApplicationUsers { get; set; }
+
+        //public System.Data.Entity.DbSet<BillTracker.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
